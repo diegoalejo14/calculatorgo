@@ -21,7 +21,7 @@ func ReadInput() string {
 	return scanner.Text()
 }
 
-func (calc) Calculate(values string, operator string) int {
+func (Calc) Calculate(values string, operator string) int {
 	valuesArr := strings.Split(values, operator)
 	a := parse(valuesArr[0])
 	b := parse(valuesArr[1])
