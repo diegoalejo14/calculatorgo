@@ -1,3 +1,3 @@
-module github.com/diegoalejo14/calculatorgo v1.0.2
+module github.com/diegoalejo14/calculatorgo 
 
 go 1.13
